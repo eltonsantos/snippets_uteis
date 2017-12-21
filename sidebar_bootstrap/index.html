@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Simple Sidebar - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+     
+    <div class="header">
+        <header>
+            <nav class="navbar navbar-fixed-top">
+                <div class="container-fluid fundo-amarelo">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-left">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-menu-right"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">
+                           CAGECE
+                            <!--<img src="" alt="CAGECE">-->
+                        </a>
+                        <h1 class="section-title">Buscar...</h1>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    
+    <div id="sidebar-wrapper-fixed">
+        <ul class="sidebar-nav-fixed"> 
+            <li>
+                <a href="#">
+                    <i class="icon glyphicon glyphicon-stats"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="icon glyphicon glyphicon-print"></i>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="icon glyphicon glyphicon-info-sign"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    
+    <div id="wrapper">
+ 
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Start Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Shortcuts</a>
+                </li>
+                <li>
+                    <a href="#">Overview</a>
+                </li>
+                <li>
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <h1>Simple Sidebar</h1>
+                <p>This template has a responsive menu toggling system. The menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will appear/disappear. On small screens, the page content will be pushed off canvas.</p>
+                <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>.</p>
+                <a href="#menu-toggle" class="btn btn-primary" id="menu-toggle">Toggle Menu</a>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
