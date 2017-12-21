@@ -19,27 +19,111 @@
 </head>
 
 <body>
-     
+    
     <div class="header">
         <header>
-            <nav class="navbar navbar-fixed-top">
-                <div class="container-fluid fundo-amarelo">
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-left">
+                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
-                            <span class="glyphicon glyphicon-menu-right"></span>
+                            <span class="icon-bar btn-inverse"></span>
+                            <span class="icon-bar btn-inverse"></span>
+                            <span class="icon-bar btn-inverse"></span>
                         </button>
-                        <a href="#" class="navbar-brand">
-                           CAGECE
-                            <!--<img src="" alt="CAGECE">-->
-                        </a>
+                        <a href="#" class="navbar-brand">CAGECE</a>
                         <h1 class="section-title">Buscar...</h1>
+                        <form class="navbar-form pull-left" id="main-form">
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input type="text" placeholder="Buscar por Lugares" class="form-control" id="main-form-input" autocomplete="off">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-inverse">
+                                        <span class="glyphicon glyphicon-search white"></span>
+                                    </button>
+                                </span>
+                              </div>
+                            </div>
+                        </form>
+                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-right">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-menu-left"></span>
+                        </button>                    
                     </div>
                 </div>
             </nav>
         </header>
     </div>
     
+
+
+<!--
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <div class="container-fluid fondo_amarillo">
+                    <div class="navbar-header modo-panel">
+                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar btn-inverse"></span>
+                            <span class="icon-bar btn-inverse"></span>
+                            <span class="icon-bar btn-inverse"></span>
+                        </button>
+                        <a href="#" class="navbar-brand"><img alt="Gobierno de la Ciudad de Buenos Aires" src="/imgs/logo-bsas.png"></a>
+                        <h1 class="section-title">Cómo Llego</h1>
+                        <form class="navbar-form pull-left" id="main-form">
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input type="text" placeholder="Direcciones o Lugares" class="form-control" id="main-form-input" autocomplete="off">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-inverse"><span class="glyphicon glyphicon-search white"></span> </button>
+                                </span>
+                              </div>
+                            </div>
+                        </form>
+                        <button type="button" class="navbar-toggle map-toggle pull-right">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-menu-left"></span>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+
+            <nav class="navbar navbar-fixed-top" role="navigation">
+                <div class="container-fluid fondo_amarillo">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle sidebar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span>                     <span class="icon-bar btn-inverse"></span>                      <span class="icon-bar btn-inverse"></span>                      <span class="icon-bar btn-inverse"></span>              </button>
+                        <a href="#" class="navbar-brand"><img alt="Gobierno de la Ciudad de Buenos Aires" src="/imgs/logo-bsas.png"></a>
+                        <h1 class="section-title">Cómo Llego</h1>
+                        <form class="navbar-form pull-left" id="main-form">
+                            <div class="form-group">
+                              <div class="input-group">
+                                <input type="text" placeholder="Direcciones o Lugares" class="form-control" id="main-form-input" autocomplete="off">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-inverse"><span class="glyphicon glyphicon-search white"></span> </button>
+                                </span>
+                              </div>
+                            </div>
+                        </form>
+                        <button type="button" class="navbar-toggle map-toggle pull-right">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="glyphicon glyphicon-menu-left"></span>
+                        </button>
+                    </div> 
+                </div>
+            </nav>
+-->
+
+
+
+
+
+
+
+
+
     <div id="sidebar-wrapper-fixed">
         <ul class="sidebar-nav-fixed"> 
             <li>
