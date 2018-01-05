@@ -1,0 +1,178 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background: #EBEBEB;
+    font-family: roboto;
+    min-height:100vh;
+    background-attachment:scroll;
+    background-image:url(../img/waves.png);
+    background-repeat:no-repeat;
+    background-position:bottom left, bottom right;
+    background-size: contain;
+}
+
+.glow{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(159,165,185,0.4);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(159,165,185,0.4);
+    box-shadow: 0px 0px 10px 0px rgba(159,165,185,0.4);
+}
+
+/* Topo */
+
+.fundo-verde{
+    background: #57BB37;
+    height: inherit;
+    -webkit-webkit-box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    -moz-webkit-box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    -ms-webkit-box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    -o-webkit-box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    webkit-box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    box-shadow: 2px 0px 6px 0px rgba(51, 51, 51, 0.32);
+    z-index: 2;   
+}
+
+.fundo-azul{
+    background: #039BE5;
+    height: inherit;
+    z-index: 1;
+}
+
+.nome-sistema{
+    font-size: 30px;
+    color: #FFFFFF;
+    padding: 0;
+    position: absolute;
+    left: 2%;
+    transform: translate(0, -25%);
+}
+
+.linha-topo{
+    height: 60px;
+}
+
+#seta, #seta-xs{
+    line-height: 60px;
+    float: right;
+    color: #FFF;
+}
+
+
+/* Painéis de Indicadores */
+
+#paineis{
+    margin-top: 25px;
+}
+
+.painel-indicador{
+    height: 109px;
+    padding: 0;   
+}
+
+.painel-indicador::after{
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    left: 50%;
+    margin: -61px 0 0 -89px;
+    z-index: 1;
+}
+
+.painel-fundo-verde{
+    background: #B1DEB7;
+    color: #32763A;    
+}
+
+.painel-fundo-verde::after{
+    content: "\f00c";
+    color: #C4E6C8;    
+}
+
+.painel-fundo-amarelo{
+    background: #FDD095;
+    color: #925503;
+}
+
+.painel-fundo-amarelo::after{
+    content: "\f00c";
+    color: #FDDBAC;
+}
+
+.painel-fundo-vermelho{
+    background: #F3B6AF;
+    color: #942316;
+}
+
+.painel-fundo-vermelho::after{
+    content: "\f12a";
+    color: #F5C8C2;
+}
+
+.painel-fundo-marrom{
+    background: #D0C6BF;
+    color: #53463E;
+}
+
+.painel-fundo-marrom::after{
+    content: "\f017";
+    color: #D9D0CA;
+}
+
+.titulo-painel-indicador{
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    padding-top:14px;
+    font-weight: 100;
+    z-index: 2;
+    position: relative;
+}
+
+.valor-painel-indicador{
+    font-size: 46px;
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    z-index: 2;
+    position: relative;
+}
+
+
+/* Alinhamentos */
+
+#logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+}
+
+.vertical-align{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0,-50%);
+}
+
+
+/* Fontes */
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/RobotoCondensed-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face{
+    font-family: roboto;
+    src: url(../fonts/RobotoCondensed-Regular.ttf);
+    font-weight: 500;
+}
+
